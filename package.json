@@ -1,0 +1,22 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "This is a Node JS web application that consumes OpenWeather API where users can type in a city name and get real-time weather data instantly displayed on their screen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameskomo/weather-app.git"
+  },
+  "author": "James Komo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameskomo/weather-app/issues"
+  },
+  "homepage": "https://github.com/jameskomo/weather-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
