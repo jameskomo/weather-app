@@ -2,6 +2,8 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const request = require('request');
+const apiKey = 'f507ecbf581f365564b7328f409f689a';
 const app = express()
 
 app.use(express.static('public'));
@@ -16,6 +18,7 @@ app.get('/', function (req, res) {
 
 app.post('/', function (req, res) {
     res.render('index');
+    console.log(req.body.city);
   })
   
 
